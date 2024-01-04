@@ -1,0 +1,37 @@
+uju Tees has been a huge hit, and Ram is now the owner of a platform that is getting a lot of attention from a lot of students. He owns a small business on the side, selling nepal-themed t-shirts. He wants to take advantage of his large audience to expand his
+
+t-shirt business by offering them an app they can use to place an order. He has sent you the following message:
+Hi again! I have another project for you. I want you to create an app that users can use to order all the t-shirts in my store.I want users to be able to view and display the t-shirt in the following format in the following format:
+Item name: Gorkhali Batman
+
+Description: Graphic text: You either die a hero or live long enough to see yourself be a villain
+Product code: 572Brand: Karuna
+
+Price: 1235
+Sizes : [XL, Medium, Large ]
+Users should be able to order any items. If they want to place an order, they must provide their full name, as well as their phone number after the order has been made to generate a bill. Including VAT 13% and no discount in a proper format.
+
+Order details :
+       Name: Gopal Sharma
+       Phone number: 0486756465
+
+       Items : [572,681]
+       Price : [1235,1780]
+
+Instruction
+Task 1Create a class named T-shirt. It should contain the following:
+1. Fields to represent the name, product code, price, brand, description, and array of available sizes of t-shirts.
+2. Constructor to initialize the fields
+3. Getters and setters as appropriate
+
+4. A method that describes the t-shirt in the format required by the Greek Geek.
+5. Create multiple T-shirt objects and demonstrate your work. Enter comments to describe your work
+
+
+Task 1Create a class named Order. It should contain the following:
+1. Fields to represent the name, phone number, items, and price. Hint: Item Code and Price should be a string and integer array respectively
+2. Constructor to initialize the fields
+3. Getters and setters as appropriate
+
+4. A method that describes that prints the bill with VAT and total price as stated above
+5. Create multiple Orders objects and demonstrate your work. Enter comments to describe your work
